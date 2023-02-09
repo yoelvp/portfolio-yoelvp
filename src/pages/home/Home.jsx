@@ -85,7 +85,7 @@ const Home = () => {
               Sep. 2022 hasta la actualidad
             </strong>
             <p className="indent-4">
-              Actualmente trabajo como desarrollado <strong className="font-semibold">móvil fullstack</strong> usando tecnologías <strong className="font-semibold">Spring Boot</strong> y <strong className="font-semibold">MySQL</strong> en el backend, tecnologías como <strong className="font-semibold">Java</strong>, <strong className="font-semibold">Retrofit</strong> en el desarrollo móvil y <strong className="font-semibold">React</strong>, <strong className="font-semibold">Styled Components</strong> para desarrollo web.
+              Actualmente trabajo como desarrollador <strong className="font-semibold">móvil fullstack</strong> usando tecnologías <strong className="font-semibold">Spring Boot</strong> y <strong className="font-semibold">MySQL</strong> en el backend, tecnologías como <strong className="font-semibold">Java</strong>, <strong className="font-semibold">Retrofit</strong> en el desarrollo móvil y <strong className="font-semibold">React</strong>, <strong className="font-semibold">Styled Components</strong> para desarrollo web.
             </p>
           </article>
         </div>
