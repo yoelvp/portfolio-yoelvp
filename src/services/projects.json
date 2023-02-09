@@ -1,0 +1,102 @@
+{
+  "personal": [
+    {
+      "id": 1,
+      "title": "{Json} Placeholder",
+      "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
+      "front": "/images/personal/01/01.png",
+      "alt": "API Json Placeholder con React y Styled Components",
+      "stack": [
+        "React",
+        "Axios",
+        "Styled Components",
+        "React Router Dom"
+      ],
+      "images": [
+        "/images/portfolio/01/01.png",
+        "/images/portfolio/01/02.png",
+        "/images/portfolio/01/03.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ricky And Morty",
+      "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
+      "image": "/images/portfolio/02/portada.png",
+      "alt": "API de Ricky & Morty con React y Tailwindcss",
+      "stack": [
+        "React",
+        "Axios",
+        "Tailwindcss",
+        "React Router Dom"
+      ],
+      "images": [
+        "/images/portfolio/02/01.png",
+        "/images/portfolio/02/02.png",
+        "/images/portfolio/02/03.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Editor Markdown",
+      "description": "En este proyecto realice un editor de Markdown, para guardar y almacenar notas usando el formato Markdown",
+      "image": "/images/portfolio/03/portada.png",
+      "alt": "Editor de Markdown con React, React Router Dom, tailwindcss, axios",
+      "stack": [
+        "React",
+        "Tailwindcss",
+        "React Router Dom",
+        "Axios",
+        "React Markdown"
+      ],
+      "images": [
+        "/images/portfolio/03/01.png",
+        "/images/portfolio/03/02.png",
+        "/images/portfolio/03/03.png"
+      ]
+    }
+  ],
+  "myJob": [
+    {
+      "id": 1,
+      "title": "App Club Mas",
+      "description": "Realice una aplicación de pagos a establecimientos que brindan un sevicio o producto, siempre y cuando, tanto el establecimiento como el cliente, formen parte de la empresa Possible Corp. al usar la aplicación el cliente tiene un descuento por cada producto a diferencia de pagar con efectivo y el establecimiento recibe publicidad por parte de la empresa.",
+      "front": "images/portfolio/job/01/front.png",
+      "stack": [
+        "Java",
+        "Spring Boot",
+        "Json Web Tokens",
+        "MySQL",
+        "Retrofit",
+        "XML"
+      ],
+      "images": [
+        "images/portfolio/job/01/01.png",
+        "images/portfolio/job/01/02.png",
+        "images/portfolio/job/01/03.png"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Comunicando",
+      "description": "Sitio web de noticias",
+      "front": "images/portfolio/job/02/front.png",
+      "alt": "API Json Placeholder con React",
+      "stack": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Tailwindcss",
+        "Laravel",
+        "Laravel Collective",
+        "Laravel Livewire",
+        "MySQL"
+      ],
+      "images": [
+        "images/portfolio/job/02/01.png",
+        "images/portfolio/job/02/02.png",
+        "images/portfolio/job/02/03.png"
+      ]
+    }
+  ]
+}
