@@ -52,7 +52,7 @@
 
 @layer components {
   .header {
-    width: 90%;
+    padding: 5%;
     margin: auto;
     backdrop-filter: blur(4px);
   }
