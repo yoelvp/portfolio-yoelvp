@@ -1,7 +1,7 @@
 # Yoel Valver - Portafolio
+Mi portafolio personal
 
 ## Screenshot
-![Homepage Yoel Valverde](./public/images/screenshots/homepage.png)
 ![Homepage Yoel Valverde](./public/images/screenshots/homepage-hero.png)
 
 ## Stack

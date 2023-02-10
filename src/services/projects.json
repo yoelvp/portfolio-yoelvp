@@ -56,12 +56,12 @@
       ]
     }
   ],
-  "myJob": [
+  "work": [
     {
       "id": 1,
       "title": "App Club Mas",
       "description": "Realice una aplicación de pagos a establecimientos que brindan un sevicio o producto, siempre y cuando, tanto el establecimiento como el cliente, formen parte de la empresa Possible Corp. al usar la aplicación el cliente tiene un descuento por cada producto a diferencia de pagar con efectivo y el establecimiento recibe publicidad por parte de la empresa.",
-      "front": "images/portfolio/job/01/front.png",
+      "image": "images/works/01/home.jpg",
       "stack": [
         "Java",
         "Spring Boot",
@@ -71,31 +71,73 @@
         "XML"
       ],
       "images": [
-        "images/portfolio/job/01/01.png",
-        "images/portfolio/job/01/02.png",
-        "images/portfolio/job/01/03.png"
+        "images/works/01/splash.jpg",
+        "images/works/01/password.jpg",
+        "images/works/01/movements.jpg",
+        "images/works/01/payment.jpg"
       ]
     },
     {
       "id": 2,
-      "title": "Comunicando",
-      "description": "Sitio web de noticias",
-      "front": "images/portfolio/job/02/front.png",
-      "alt": "API Json Placeholder con React",
+      "title": "Hostal Arica",
+      "description": "El Hostal Arica es un lugar acogedor y confortable, ubicado en una hermosa ciudad con vistas al mar. Su página web, desarrollada con HTML, CSS, Javascript, Tailwindcss y Laravel, ofrece una experiencia de usuario amigable y fácil de navegar. Con un diseño simple y clásico, la página presenta información detallada sobre las habitaciones disponibles, tarifas, servicios y ubicación del hostal.",
+      "image": "images/works/02/hostalarica-hero.png",
+      "alt": "Imágen de la página principal",
       "stack": [
         "HTML",
         "CSS",
         "Javascript",
         "Tailwindcss",
+        "PHP",
         "Laravel",
         "Laravel Collective",
         "Laravel Livewire",
         "MySQL"
       ],
       "images": [
-        "images/portfolio/job/02/01.png",
-        "images/portfolio/job/02/02.png",
-        "images/portfolio/job/02/03.png"
+        "images/works/02/about.png",
+        "images/works/02/contact.png"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Centro Médico San Isidro",
+      "description": "El Centro Médico San Isidro es una institución de atención médica de alta calidad, dedicada a brindar a sus pacientes la mejor atención posible. Su página web, desarrollada con HTML, CSS, Javascript, SASS y Laravel, ofrece una experiencia en línea cómoda y eficiente. Con un diseño simple y clásico, la página presenta información detallada sobre los servicios médicos que ofrecen, el equipo de profesionales, horarios de atención y formas de contacto.",
+      "image": "images/works/03/homepage-hero.png",
+      "alt": "Imágen de la página principal",
+      "stack": [
+        "HTML",
+        "SASS",
+        "Javascript",
+        "PHP",
+        "Laravel",
+        "MySQL"
+      ],
+      "images": [
+        "images/works/03/objectives.png",
+        "images/works/03/our-clients.png"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Comunicando",
+      "description": "Comunicando, una fuente confiable para noticias locales en Huamachuco. Con un diseño básico y conciso, la página web combina la tecnología más avanzada, incluyendo HTML, CSS, Javascript, Tailwindcss, Laravel, MySQL y complementos de Laravel, para brindarle una experiencia de usuario rápida y eficiente. Aquí encontrará información actualizada y precisa sobre lo que sucede en su comunidad, desde eventos locales hasta noticias importantes.",
+      "image": "images/works/04/homepage.png",
+      "alt": "Imágen de la página principal",
+      "stack": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Laravel",
+        "Laravel Collective",
+        "Laravel Livewire",
+        "MySQL"
+      ],
+      "images": [
+        "images/works/04/news-detail.png",
+        "images/works/04/categories.png",
+        "images/works/04/footer-page.png"
       ]
     }
   ]
