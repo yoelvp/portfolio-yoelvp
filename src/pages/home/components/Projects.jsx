@@ -11,7 +11,6 @@ const Projects = () => {
   }, [])
 
   const twoFirtPersonalProjects = mainProjects.slice(0, 2)
-  console.log(twoFirtPersonalProjects)
 
   return (
     <section className="mb-10">
