@@ -3,8 +3,9 @@
     {
       "id": 1,
       "title": "{Json} Placeholder",
+      "slug": "json-placeholder",
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
-      "front": "/images/personal/01/01.png",
+      "image": "/images/personal/01/01.png",
       "alt": "API Json Placeholder con React y Styled Components",
       "stack": [
         "React",
@@ -13,16 +14,29 @@
         "React Router Dom"
       ],
       "images": [
-        "/images/portfolio/01/01.png",
-        "/images/portfolio/01/02.png",
-        "/images/portfolio/01/03.png"
+        {
+          "id": 1,
+          "url": "/images/portfolio/01/01.png",
+          "alt": ""
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/01/02.png",
+          "alt": ""
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/01/03.png",
+          "alt": ""
+        }
       ]
     },
     {
       "id": 2,
       "title": "Ricky And Morty",
+      "slug": "ricky-and-morty",
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
-      "image": "/images/portfolio/02/portada.png",
+      "image": "/images/personal/02/portada.png",
       "alt": "API de Ricky & Morty con React y Tailwindcss",
       "stack": [
         "React",
@@ -31,16 +45,29 @@
         "React Router Dom"
       ],
       "images": [
-        "/images/portfolio/02/01.png",
-        "/images/portfolio/02/02.png",
-        "/images/portfolio/02/03.png"
+        {
+          "id": 1,
+          "url": "/images/portfolio/02/01.png",
+          "alt": ""
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/02/02.png",
+          "alt": ""
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/02/03.png",
+          "alt": ""
+        }
       ]
     },
     {
       "id": 3,
       "title": "Editor Markdown",
+      "slug": "editor-markdown",
       "description": "En este proyecto realice un editor de Markdown, para guardar y almacenar notas usando el formato Markdown",
-      "image": "/images/portfolio/03/portada.png",
+      "image": "/images/personal/03/portada.png",
       "alt": "Editor de Markdown con React, React Router Dom, tailwindcss, axios",
       "stack": [
         "React",
@@ -50,9 +77,21 @@
         "React Markdown"
       ],
       "images": [
-        "/images/portfolio/03/01.png",
-        "/images/portfolio/03/02.png",
-        "/images/portfolio/03/03.png"
+        {
+          "id": 1,
+          "url": "/images/portfolio/03/01.png",
+          "alt": ""
+        },
+        {
+          "id": 2,
+          "url": "/images/portfolio/03/02.png",
+          "alt": ""
+        },
+        {
+          "id": 3,
+          "url": "/images/portfolio/03/03.png",
+          "alt": ""
+        }
       ]
     }
   ],
@@ -60,8 +99,10 @@
     {
       "id": 1,
       "title": "App Club Mas",
+      "slug": "app-club-mas",
       "description": "Realice una aplicación de pagos a establecimientos que brindan un sevicio o producto, siempre y cuando, tanto el establecimiento como el cliente, formen parte de la empresa Possible Corp. al usar la aplicación el cliente tiene un descuento por cada producto a diferencia de pagar con efectivo y el establecimiento recibe publicidad por parte de la empresa.",
-      "image": "images/works/01/home.jpg",
+      "image": "/images/works/01/home.jpg",
+      "link": "",
       "stack": [
         "Java",
         "Spring Boot",
@@ -71,18 +112,36 @@
         "XML"
       ],
       "images": [
-        "images/works/01/splash.jpg",
-        "images/works/01/password.jpg",
-        "images/works/01/movements.jpg",
-        "images/works/01/payment.jpg"
+        {
+          "id": 1,
+          "url": "/images/works/01/splash.jpg",
+          "alt": "splash screen"
+        },
+        {
+          "id": 2,
+          "url": "/images/works/01/password.jpg",
+          "alt": "enter password"
+        },
+        {
+          "id": 3,
+          "url": "/images/works/01/movements.jpg",
+          "alt": " list of the movements"
+        },
+        {
+          "id": 4,
+          "url": "/images/works/01/payment.jpg",
+          "alt": " payments for establishment"
+        }
       ]
     },
     {
       "id": 2,
       "title": "Hostal Arica",
+      "slug": "hostal-arica",
       "description": "El Hostal Arica es un lugar acogedor y confortable, ubicado en una hermosa ciudad con vistas al mar. Su página web, desarrollada con HTML, CSS, Javascript, Tailwindcss y Laravel, ofrece una experiencia de usuario amigable y fácil de navegar. Con un diseño simple y clásico, la página presenta información detallada sobre las habitaciones disponibles, tarifas, servicios y ubicación del hostal.",
-      "image": "images/works/02/hostalarica-hero.png",
+      "image": "/images/works/02/hostalarica-hero.png",
       "alt": "Imágen de la página principal",
+      "link": "https://www.hostalarica.com",
       "stack": [
         "HTML",
         "CSS",
@@ -95,16 +154,26 @@
         "MySQL"
       ],
       "images": [
-        "images/works/02/about.png",
-        "images/works/02/contact.png"
+        {
+          "id": 1,
+          "url": "/images/works/02/about.png",
+          "alt": "about page"
+        },
+        {
+          "id": 2,
+          "url": "/images/works/02/contact.png",
+          "alt": "contact page"
+        }
       ]
     },
     {
       "id": 3,
       "title": "Centro Médico San Isidro",
+      "slug": "centro-medico-san-isidro",
       "description": "El Centro Médico San Isidro es una institución de atención médica de alta calidad, dedicada a brindar a sus pacientes la mejor atención posible. Su página web, desarrollada con HTML, CSS, Javascript, SASS y Laravel, ofrece una experiencia en línea cómoda y eficiente. Con un diseño simple y clásico, la página presenta información detallada sobre los servicios médicos que ofrecen, el equipo de profesionales, horarios de atención y formas de contacto.",
-      "image": "images/works/03/homepage-hero.png",
+      "image": "/images/works/03/homepage-hero.png",
       "alt": "Imágen de la página principal",
+      "link": "https://www.centromedicosanisidro.pe",
       "stack": [
         "HTML",
         "SASS",
@@ -114,16 +183,26 @@
         "MySQL"
       ],
       "images": [
-        "images/works/03/objectives.png",
-        "images/works/03/our-clients.png"
+        {
+          "id": 1,
+          "url": "/images/works/03/objectives.png",
+          "alt": "objectives page"
+        },
+        {
+          "id": 2,
+          "url": "/images/works/03/our-clients.png",
+          "alt": "our clients page"
+        }
       ]
     },
     {
       "id": 4,
       "title": "Comunicando",
+      "slug": "comunicando",
       "description": "Comunicando, una fuente confiable para noticias locales en Huamachuco. Con un diseño básico y conciso, la página web combina la tecnología más avanzada, incluyendo HTML, CSS, Javascript, Tailwindcss, Laravel, MySQL y complementos de Laravel, para brindarle una experiencia de usuario rápida y eficiente. Aquí encontrará información actualizada y precisa sobre lo que sucede en su comunidad, desde eventos locales hasta noticias importantes.",
-      "image": "images/works/04/homepage.png",
+      "image": "/images/works/04/homepage.png",
       "alt": "Imágen de la página principal",
+      "link": "https://www.comunicando.digital",
       "stack": [
         "HTML",
         "CSS",
@@ -135,9 +214,21 @@
         "MySQL"
       ],
       "images": [
-        "images/works/04/news-detail.png",
-        "images/works/04/categories.png",
-        "images/works/04/footer-page.png"
+        {
+          "id": 1,
+          "url": "/images/works/04/news-detail.png",
+          "alt": ""
+        },
+        {
+          "id": 2,
+          "url": "/images/works/04/categories.png",
+          "alt": ""
+        },
+        {
+          "id": 3,
+          "url": "/images/works/04/footer-page.png",
+          "alt": ""
+        }
       ]
     }
   ]

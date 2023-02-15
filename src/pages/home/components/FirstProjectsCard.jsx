@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const FirstProjectCard = ({ project }) => {
   return (
     <Link
-      to={`/portfolio/${project.id}`}
+      to={`/portfolio/personal/${project.id}`}
       className="inline-bock w-full bg-dark-variant rounded-md overflow-hidden"
     >
       <div>

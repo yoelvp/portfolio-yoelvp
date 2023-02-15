@@ -15,13 +15,18 @@ const Portfolio = () => {
   return (
     <Layout paddingTop>
       <div className=""></div>
-
       <section className="mt-10 mb-20">
         <h2 className="font-title text-2xl text-red mb-4">
           Proyectos personales
         </h2>
         <section className="grid grid-cols-2 gap-8">
-          {personalProjects.map(project => <ProjectCard key={project.id} project={project} />)}
+          {personalProjects.map(project => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+              to={`personal/${project.slug}`}
+            />
+          ))}
         </section>
       </section>
 
@@ -30,7 +35,13 @@ const Portfolio = () => {
           Proyectos de mi trabajo
         </h2>
         <section className="grid grid-cols-2 gap-8">
-          {workProjects.map(project => <ProjectCard key={project.id} project={project} />)}
+          {workProjects.map(project => (
+            <ProjectCard
+              key={project.id}
+              project={project}
+              to={`works/${project.slug}`}
+            />
+          ))}
         </section>
       </section>
     </Layout>

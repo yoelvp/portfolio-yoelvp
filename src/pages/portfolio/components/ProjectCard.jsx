@@ -1,6 +1,8 @@
-const ProjectCard = ({ project }) => {
+import { Link } from 'react-router-dom'
+
+const ProjectCard = ({ project, to }) => {
   return (
-    <article key={project.id}>
+    <Link to={to}>
       <img
         src={project.image}
         alt={project.alt}
@@ -11,7 +13,7 @@ const ProjectCard = ({ project }) => {
           {project.title}
         </h4>
       </div>
-    </article>
+    </Link>
   )
 }
 
