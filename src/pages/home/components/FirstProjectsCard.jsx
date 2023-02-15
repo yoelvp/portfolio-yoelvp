@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 const FirstProjectCard = ({ project }) => {
   return (
     <Link
-      to={`/portfolio/personal/${project.id}`}
+      to={`/portfolio/personal/${project.slug}`}
       className="inline-bock w-full bg-dark-variant rounded-md overflow-hidden"
     >
       <div>
         <img
-          src={project.front}
+          src={project.image}
           alt={project.alt}
           className="h-40 w-full object-cover object-top"
         />
