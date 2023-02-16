@@ -36,7 +36,7 @@
       "title": "Ricky And Morty",
       "slug": "ricky-and-morty",
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
-      "image": "/images/personal/02/portada.png",
+      "image": "/images/personal/02/homepage.png",
       "alt": "API de Ricky & Morty con React y Tailwindcss",
       "stack": [
         "React",
@@ -47,18 +47,23 @@
       "images": [
         {
           "id": 1,
-          "url": "/images/portfolio/02/01.png",
-          "alt": ""
+          "url": "/images/personal/02/homepage.png",
+          "alt": "main list of the characters"
         },
         {
           "id": 2,
-          "url": "/images/portfolio/02/02.png",
-          "alt": ""
+          "url": "/images/personal/02/user-card.png",
+          "alt": "code of character detail"
         },
         {
           "id": 3,
-          "url": "/images/portfolio/02/03.png",
-          "alt": ""
+          "url": "/images/personal/02/character-detail.png",
+          "alt": "image of character detail"
+        },
+        {
+          "id": 4,
+          "url": "/images/personal/02/character-in-episode.png",
+          "alt": "code of episodes where appear character"
         }
       ]
     },

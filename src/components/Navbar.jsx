@@ -17,7 +17,7 @@ function Navbar() {
       >
         Portfolio
       </Link>
-      <Link
+      {/* <Link
         to='/blog'
         className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/blog' ? 'link-active' : 'border-transparent'} link-hover`}
       >
@@ -28,7 +28,7 @@ function Navbar() {
         className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/about' ? 'link-active' : 'border-transparent'} link-hover`}
       >
         Acerca de
-      </Link>
+      </Link> */}
     </div>
   )
 }
