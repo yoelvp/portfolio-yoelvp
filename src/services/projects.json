@@ -7,6 +7,7 @@
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
       "image": "/images/personal/01/01.png",
       "alt": "API Json Placeholder con React y Styled Components",
+      "link": "https://yoelvalverde-jsonplaceholder.netlify.app",
       "stack": [
         "React",
         "Axios",
@@ -38,6 +39,7 @@
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
       "image": "/images/personal/02/homepage.png",
       "alt": "API de Ricky & Morty con React y Tailwindcss",
+      "link": "https://yoelvalverde-rickyandmorty.netlify.app",
       "stack": [
         "React",
         "Axios",
@@ -74,6 +76,7 @@
       "description": "En este proyecto realice un editor de Markdown, para guardar y almacenar notas usando el formato Markdown",
       "image": "/images/personal/03/portada.png",
       "alt": "Editor de Markdown con React, React Router Dom, tailwindcss, axios",
+      "link": "https://yoelvalverde-editormarkdown.netlify.app",
       "stack": [
         "React",
         "Tailwindcss",
