@@ -45,8 +45,9 @@ const ProjectDetails = () => {
             SITIO WEB
           </strong>
           <a
-            href="project.link"
+            href={project.link}
             target="_blank"
+            rel="noreferrer"
             className="text-red hover:underline"
           >
             {project.link}
