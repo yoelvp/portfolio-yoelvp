@@ -19,7 +19,7 @@ const Portfolio = () => {
         <h2 className="font-title text-2xl text-red mb-4">
           Proyectos personales
         </h2>
-        <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <section className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {personalProjects.map(project => (
             <ProjectCard
               key={project.id}
@@ -34,7 +34,7 @@ const Portfolio = () => {
         <h2 className="font-title text-2xl text-red mb-4">
           Proyectos de mi trabajo
         </h2>
-        <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <section className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {workProjects.map(project => (
             <ProjectCard
               key={project.id}

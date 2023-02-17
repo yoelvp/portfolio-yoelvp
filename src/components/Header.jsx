@@ -1,23 +1,27 @@
-import { useRef } from 'react'
+import { useState, useRef } from 'react'
 import { AiOutlineLinkedin, AiOutlineInstagram, AiOutlineGithub, AiOutlineMenu } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 import Navbar from './Navbar'
 
 function Header() {
+  const [isOpenMenu, setIsOpenMenu] = useState(false)
   const buttonToggleMenu = useRef()
 
   const handleMenu = () => {
-    // ...
-    buttonToggleMenu.current.classList.toggle('test')
+    console.log('click')
+    buttonToggleMenu.current.addEventListener('click', () => setIsOpenMenu(!isOpenMenu))
   }
 
   return (
     <header className='w-full py-4 fixed top-0 left-0 right-0 flex justify-center items-center header'>
       <div className='w-full flex justify-between items-center'>
-        <h3 className='text-red font-title text-3xl'>
-          Yoel Valverde
-        </h3>
+        <Link to="/">
+          <h3 className='text-red font-title text-3xl'>
+            Yoel Valverde
+          </h3>
+        </Link>
 
-        <Navbar />
+        <Navbar isOpenMenu={isOpenMenu} setIsOpenMenu={setIsOpenMenu} />
 
         <div className='hidden md:flex md:justify-center md:items-center md:gap-4'>
           <a href="https://linkedin.com/in/yoelvalverdepolo" target='_blank' rel='noreferrer noopener' className='text-white hover:text-red-variant hover:text-opacity-90'>
