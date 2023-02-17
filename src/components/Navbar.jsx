@@ -34,15 +34,15 @@ function Navbar({ isOpenMenu, setIsOpenMenu }) {
       {isOpenMenu && (
         <div className="bg-red absolute right-8 top-16 rounded-lg flex flex-col px-4 py-2">
           <Link
-            to='/'
-            className={`px-2 py-1 hover:bg-dark-variant hover:bg-opacity-50 hover:rounded-lg ${href === '/' ? 'bg-dark-variant bg-opacity-50 rounded-lg' : 'border-transparent'}`}
+            to="/"
+            className={`px-2 py-1 hover:bg-dark-variant hover:bg-opacity-50 rounded-lg ${href === '/' ? 'bg-dark-variant bg-opacity-50' : ''} selection:bg-red`}
             onClick={() => setIsOpenMenu(false)}
           >
             Inicio
           </Link>
           <Link
-            to='/portfolio'
-            className={`px-2 py-1 hover:bg-dark-variant hover:bg-opacity-50 hover:rounded-lg ${href === '/portfolio' ? 'bg-dark-variant bg-opacity-50 rounded-lg' : 'border-transparent'}`}
+            to="/portfolio"
+            className={`px-2 py-1 hover:bg-dark-variant hover:bg-opacity-50 rounded-lg ${href === '/portfolio' ? 'bg-dark-variant bg-opacity-50' : ''} selection:bg-red`}
             onClick={() => setIsOpenMenu(false)}
           >
             Portfolio

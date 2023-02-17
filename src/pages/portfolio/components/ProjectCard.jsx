@@ -9,7 +9,7 @@ const ProjectCard = ({ project, to }) => {
         className="w-full h-80 object-cover object-top rounded-md border border-white sm:h-48"
       />
       <div className="flex justify-center items-center pt-4">
-        <h4 className="text-lg font-title font-bold">
+        <h4 className="text-lg font-title font-bold selection:bg-red">
           {project.title}
         </h4>
       </div>

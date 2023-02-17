@@ -27,37 +27,39 @@ const ProjectDetails = () => {
           className="rounded-lg border border-white w-full h-auto object-cover object-top"
         />
         <p>
-          <Link to="/portfolio" className="text-red font-semibold hover:underline">
+          <Link to="/portfolio" className="text-red font-semibold hover:underline selection:bg-white">
             Portfolio
           </Link>
-          <span className="mx-2">&gt;</span>
-          <span className="text-xl">
+          <span className="mx-2 selection:bg-red">&gt;</span>
+          <span className="text-xl selection:bg-red">
             {project.title}
           </span>
         </p>
       </div>
-      <p className="indent-4">
+      <p className="indent-4 selection:bg-red">
         {project.description}
       </p>
       <div className="mt-4 ml-2">
+        {project.link && (
+          <p>
+            <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2 selection:bg-red">
+              SITIO WEB
+            </strong>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-red hover:underline selection:bg-white"
+            >
+              {project.link}
+            </a>
+          </p>
+        )}
         <p>
-          <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2">
-            SITIO WEB
-          </strong>
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noreferrer"
-            className="text-red hover:underline"
-          >
-            {project.link}
-          </a>
-        </p>
-        <p>
-          <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2">
+          <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2 selection:bg-red">
             STACK
           </strong>
-          <span>
+          <span className="selection:bg-red">
             {project.stack?.join(', ')}
           </span>
         </p>
