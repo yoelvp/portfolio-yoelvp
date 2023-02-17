@@ -26,3 +26,10 @@ Mi portafolio personal
 | # Data
 |--- # Services
 ```
+
+# Heading 01
+## Heading 02
+### Heading 03
+#### Heading 04
+##### Heading 05
+###### Heading 06
