@@ -16,10 +16,10 @@ const Portfolio = () => {
     <Layout paddingTop>
       <div className=""></div>
       <section className="mt-10 mb-20">
-        <h2 className="font-title text-2xl text-red mb-4">
+        <h2 className="font-title text-red mb-4 section-title selection:bg-white">
           Proyectos personales
         </h2>
-        <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <section className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {personalProjects.map(project => (
             <ProjectCard
               key={project.id}
@@ -31,10 +31,10 @@ const Portfolio = () => {
       </section>
 
       <section className="mt-10 mb-20">
-        <h2 className="font-title text-2xl text-red mb-4">
+        <h2 className="font-title text-red mb-4 selection:bg-white">
           Proyectos de mi trabajo
         </h2>
-        <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
+        <section className="grid grid-cols-1 gap-8 sm:grid-cols-2">
           {workProjects.map(project => (
             <ProjectCard
               key={project.id}

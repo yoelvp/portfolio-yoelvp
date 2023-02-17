@@ -13,7 +13,7 @@ const FirstProjectCard = ({ project }) => {
           className="h-40 w-full object-cover object-top"
         />
         <div className="flex justify-center items-center my-2 mx-4">
-          <h4 className="font-title">
+          <h4 className="font-title selection:bg-red">
             {project.title}
           </h4>
         </div>

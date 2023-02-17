@@ -5,7 +5,7 @@
       "title": "{Json} Placeholder",
       "slug": "json-placeholder",
       "description": "En este proyecto consumí una API Pública muy conocida, como ya lo dice el título, es uno de mis proyectos donde use bla bla",
-      "image": "/images/personal/01/01.png",
+      "image": "/images/personal/01/posts.png",
       "alt": "API Json Placeholder con React y Styled Components",
       "link": "https://yoelvalverde-jsonplaceholder.netlify.app",
       "stack": [
@@ -17,18 +17,33 @@
       "images": [
         {
           "id": 1,
-          "url": "/images/portfolio/01/01.png",
-          "alt": ""
+          "url": "/images/personal/01/posts.png",
+          "alt": "lis of posts"
         },
         {
           "id": 2,
-          "url": "/images/portfolio/01/02.png",
-          "alt": ""
+          "url": "/images/personal/01/code-posts.png",
+          "alt": "code of list posts"
         },
         {
           "id": 3,
-          "url": "/images/portfolio/01/03.png",
-          "alt": ""
+          "url": "/images/personal/01/comments-of-posts.png",
+          "alt": " comments of the post"
+        },
+        {
+          "id": 4,
+          "url": "/images/personal/01/code-post-comments.png",
+          "alt": "code of the comments the post"
+        },
+        {
+          "id": 5,
+          "url": "/images/personal/01/users.png",
+          "alt": "list of users"
+        },
+        {
+          "id": 6,
+          "url": "/images/personal/01/user-albums.png",
+          "alt": "list of albums the user"
         }
       ]
     },
