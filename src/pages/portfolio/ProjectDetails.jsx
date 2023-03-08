@@ -55,6 +55,21 @@ const ProjectDetails = () => {
             </a>
           </p>
         )}
+        {project.github && (
+          <p>
+            <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2 selection:bg-red">
+              GITHUB
+            </strong>
+            <a
+              href={project?.github}
+              target="_blank"
+              rel="noreferrer"
+              className="text-red hover:underline selection:bg-white"
+            >
+              {project?.github}
+            </a>
+          </p>
+        )}
         <p>
           <strong className="bg-red bg-opacity-60 rounded-[4px] px-1 text-xs text-white mr-2 selection:bg-red">
             STACK
