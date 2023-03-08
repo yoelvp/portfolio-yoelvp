@@ -8,6 +8,7 @@
       "image": "/images/personal/01/posts.png",
       "alt": "API Json Placeholder con React y Styled Components",
       "link": "https://yoelvalverde-jsonplaceholder.netlify.app",
+      "github": "https://github.com/yoelvp/jsonplaceholder",
       "stack": [
         "React",
         "Axios",
@@ -55,6 +56,7 @@
       "image": "/images/personal/02/homepage.png",
       "alt": "API de Ricky & Morty con React y Tailwindcss",
       "link": "https://yoelvalverde-rickyandmorty.netlify.app",
+      "github": "https://github.com/yoelvp/ricky-and-morty",
       "stack": [
         "React",
         "Axios",
@@ -81,39 +83,6 @@
           "id": 4,
           "url": "/images/personal/02/character-in-episode.png",
           "alt": "code of episodes where appear character"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Editor Markdown",
-      "slug": "editor-markdown",
-      "description": "En este proyecto realice un editor de Markdown, para guardar y almacenar notas usando el formato Markdown",
-      "image": "/images/personal/03/portada.png",
-      "alt": "Editor de Markdown con React, React Router Dom, tailwindcss, axios",
-      "link": "https://yoelvalverde-editormarkdown.netlify.app",
-      "stack": [
-        "React",
-        "Tailwindcss",
-        "React Router Dom",
-        "Axios",
-        "React Markdown"
-      ],
-      "images": [
-        {
-          "id": 1,
-          "url": "/images/portfolio/03/01.png",
-          "alt": ""
-        },
-        {
-          "id": 2,
-          "url": "/images/portfolio/03/02.png",
-          "alt": ""
-        },
-        {
-          "id": 3,
-          "url": "/images/portfolio/03/03.png",
-          "alt": ""
         }
       ]
     }
