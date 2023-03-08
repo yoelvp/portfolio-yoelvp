@@ -8,23 +8,23 @@ function Navbar({ isOpenMenu, setIsOpenMenu }) {
       <div className='hidden md:flex justify-center items-center'>
         <Link
           to='/'
-          className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/' ? 'link-active' : 'border-transparent'} link-hover`}
+          className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/' ? 'link-active' : 'border-transparent'} link-hover selection:bg-red`}
         >
           Inicio
         </Link>
         <Link
           to='/portfolio'
-          className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/portfolio' ? 'link-active' : 'border-transparent'} link-hover`}
+          className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/portfolio' ? 'link-active' : 'border-transparent'} link-hover selection:bg-red`}
         >
           Portfolio
         </Link>
-        {/* <Link
-        to='/blog'
-        className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/blog' ? 'link-active' : 'border-transparent'} link-hover`}
-      >
-        Blog
-      </Link>
-      <Link
+        <Link
+          to='/curriculum'
+          className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/curriculum' ? 'link-active' : 'border-transparent'} link-hover selection:bg-red`}
+        >
+          Curriculum
+        </Link>
+        {/*<Link
         to='/about'
         className={`px-2 py-1 rounded-t-md border-b-[2px] hover:bg-dark-variant ${href === '/about' ? 'link-active' : 'border-transparent'} link-hover`}
       >
