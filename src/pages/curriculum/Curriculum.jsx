@@ -12,7 +12,7 @@ const Curriculum = () => {
           <section>
             <div className="mt-4">
               <div className="flex justify-start items-end gap-2">
-                <p className="inline border border-red rounded-xl px-2 py-[1px]">
+                <p className="inline border border-red rounded-xl px-2 py-[1px] uppercase text-sm">
                   Oct. 2022 - Mar. 2023
                 </p>
                 <span className="text-gray">
@@ -33,7 +33,7 @@ const Curriculum = () => {
             </div>
             <div className="mt-4">
               <div className="flex justify-start items-center gap-2">
-                <p className="inline border border-red rounded-xl px-2 py-[1px]">
+                <p className="inline border border-red rounded-xl px-2 py-[1px] uppercase text-sm">
                   Feb. 2022 - Oct. 2022
                 </p>
                 <span className="text-gray">
@@ -54,7 +54,7 @@ const Curriculum = () => {
             </div>
             <div className="mt-4">
               <div className="flex justify-start items-center gap-2">
-                <p className="inline border border-red rounded-xl px-2 py-[1px]">
+                <p className="inline border border-red rounded-xl px-2 py-[1px] uppercase text-sm">
                   Nov. 2021 - Dic. 2021
                 </p>
                 <span className="text-gray">
@@ -81,25 +81,27 @@ const Curriculum = () => {
             Educación
           </h4>
 
-          <div className="mt-4">
-            <article className="flex justify-start items-center gap-2">
-              <p className="inline border border-red rounded-xl px-2 py-[1px]">
+          <section className="mt-4">
+            <div className="flex justify-start items-center gap-2">
+              <p className="inline border border-red rounded-xl px-2 py-[1px] uppercase text-sm">
                 Abr. 2019 - Dic. 2021
               </p>
               <span className="text-gray">
                 Instituto De Educación Superior Tecnológico Público Huamachuco
               </span>
+            </div>
+            <article className="flex justify-content items-start gap-2 ml-4">
+              <hr className="bg-red-variant border-none h-20 px-[1px]" />
+              <div className="mt-2">
+                <h4 className="text-red">
+                  Computación E Informática
+                </h4>
+                <p>
+                  Estudié <strong>Computación E Informática</strong> en el Instituto de Educación Superior tecnológico Público de Huamachuco, donde empecé a aprender programación, fue donde empecé a conocer el increíble mundo del desarrollo de software y aplicaciones web.
+                </p>
+              </div>
             </article>
-            <article className="flex flex-col mt-2">
-              <hr className="bg-gray border-none h-full w-[1px] px-[1px]" />
-              <h4>
-                Computación E Informática
-              </h4>
-              <p>
-                Estudié <strong>Computación E Informática</strong> en el Instituto de Educación Superior tecnológico Público de Huamachuco, donde empecé a aprender programación, fue donde empecé a conocer el increíble mundo del desarrollo de software y aplicaciones web.
-              </p>
-            </article>
-          </div>
+          </section>
         </div>
       </section>
     </Layout>
